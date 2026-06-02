@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background-color:#00800b;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background-color:#00cc2c;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .banner{
+            width:100%;
+            height:400px;
+            background-image:url('caminhao-trabalhando-no-campo-durante-um-dia-ensolarado_23-2151976947.avif');
+            background-size:cover;
+            background-position:center;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:30px 0;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.03);
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:15px;
+        }
+
+        .card-content h3{
+            margin-bottom:10px;
+            color:#008011;
+        }
+
+        footer{
+            background:#00801c;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A G R I N H O .</h1>
+
+        <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+        
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="banner"></div>
+
+    <section class="container">
+        <h2 style="text-align:center; margin-bottom:30px;">
+            Nossos Destaques
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="hqdefault.jpg" alt="Imagem 1">
+                <div class="card-content">
+                    <h3>AGRO FORTE</h3>
+                    <p>
+                        Agro Forte é um produto agrícola desenvolvido para fortalecer plantas, aumentando sua resistência a doenças e estresses ambientais. Ele atua como fertilizante ou bioestimulante, fornecendo nutrientes essenciais para maior produtividade. É indicado para diversas culturas, contribuindo para o desenvolvimento saudável e vigoroso das plantas.
+                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="1675950255261.png" alt="Imagem 2">
+                <div class="card-content">
+                    <h3>FUTURO SUSTENTAVÉL</h3>
+                    <p>
+                        Um futuro sustentável busca equilibrar desenvolvimento econômico, preservação ambiental e justiça social. Envolve o uso consciente de recursos naturais e a redução de impactos ambientais. Promove inovação e práticas que garantam qualidade de vida para as gerações presentes e futuras.
+                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="fundo-de-plantação-agrícola-com-descritivo-de-icones-1200x675px_43hFrMtfn.webp" alt="Imagem 3">
+                <div class="card-content">
+                    <h3>EQUILIBRIO</h3>
+                    <p>
+                        O equilíbrio entre produção e meio ambiente visa conciliar a produtividade agrícola e industrial com a conservação dos recursos naturais. Incentiva práticas responsáveis, como uso sustentável do solo, água e energia. Dessa forma, garante crescimento econômico sem comprometer a saúde do planeta.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Meu Site | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
